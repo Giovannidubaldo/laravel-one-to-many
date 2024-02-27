@@ -17,6 +17,7 @@
                                 <th>ID</th>
                                 <th>Name</th>
                                 <th>Slug</th>
+                                <th>Type</th>
                                 <th>Description</th>
                                 <th>Start Date</th>
                                 <th>End Date</th>
@@ -29,6 +30,7 @@
                                     <td>{{ $project->id }}</td>
                                     <td>{{ $project->name }}</td>
                                     <td>{{ $project->slug }}</td>
+                                    <td>{{ $project->type ? $project->type->name : 'Nessuno' }}</td>
                                     <td>{{ Str::limit($project->description, 20, '(...)') }}</td>
                                     <td>{{ $project->start_date }}</td>
                                     <td>{{ $project->end_date }}</td>
