@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="my-5 text-center">Aggiungi un nuovo progetto</h2>
+                <h2 class="my-3 text-center">Aggiungi un nuovo progetto</h2>
                 <form action="{{ route('admin.projects.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="row">

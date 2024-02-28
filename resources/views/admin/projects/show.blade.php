@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row my-5">
+        <div class="row my-3">
             <div class="card" style="width: 18rem;">
                 @if ($project->image != null)
                     <img src=" {{ asset('/storage/' . $project->image) }}" alt="{{ $project->name }}" class="card-img-top">

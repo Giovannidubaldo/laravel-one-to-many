@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-between my-5">
+            <div class="col-12 d-flex justify-content-between my-3">
                 <h2>I miei Progetti</h2>
                 <div>
                     <a href="{{ route('admin.projects.create') }}" class="btn btn-sm btn-primary">Aggiungi progetto</a>

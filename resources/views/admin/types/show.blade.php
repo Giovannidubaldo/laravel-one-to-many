@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row my-5">
+        <div class="row my-3">
             <h2>{{ $type->name }}</h2>
             @forelse ($type->projects as $project)
                 <div class="col-3 my-3">
