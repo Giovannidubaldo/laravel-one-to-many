@@ -6,7 +6,7 @@
             <h2>{{ $type->name }}</h2>
             @forelse ($type->projects as $project)
                 <div class="col-3 my-3">
-                    <div class="card">
+                    <div class="card h-100">
                         <img src="{{ $project->image ? asset('/storage/' . $project->image) : asset('/img/sfondo.jpg') }}"
                             alt="" class="card-image-top">
                         <div class="card-body">
